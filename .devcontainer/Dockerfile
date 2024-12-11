@@ -4,7 +4,7 @@ ENV POETRY_VERSION=1.8.4
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        libpq=dev \
+        libpq-dev \
     && apt-get clean -y \
     && rm -rf /var/lib/apt/lists/*
 
