@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Tests",
+        "command": "poetry run pytest"
+      },
+      {
+        "label": "Run App",
+        "command": "poetry run fastapi dev"
+      }
+    ]
+  }
