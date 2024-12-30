@@ -1,11 +1,16 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/postgres
 {
-	"name": "Python & PostgreSQL",
-	"dockerComposeFile": "docker-compose.yml",
+	"name": "Python",
+	"image": "mcr.microsoft.com/devcontainers/python:3.11",
+	//"dockerComposeFile": "docker-compose.yml",
 	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// Features to add to the dev container. More info: https://containers.dev/features.
-	// "features": {},
+	"features": {
+    		"ghcr.io/devcontainers-extra/features/poetry:2": {
+			"version": "1.8.4"
+		}
+  	},
 	"forwardPorts": [8000, 5432],
 	"postCreateCommand": ["/bin/bash", ".devcontainer/scripts/install.sh"],
 
