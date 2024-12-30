@@ -1,0 +1,6 @@
+{
+    "python.testing.pytestEnabled": true,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.scrollback": 100000,
+    "python.defaultInterpreterPath": "./.venv/bin/python",
+}
