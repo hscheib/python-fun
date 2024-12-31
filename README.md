@@ -1,5 +1,7 @@
 # python-fun
 
+Learning playground with simple fastapi app and devcontainer.
+
 ## Working in the project
 
 ### Running app
