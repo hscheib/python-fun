@@ -2,10 +2,7 @@ version: '3.8'
 
 services:
   app:
-    build:
-      context: ..
-      dockerfile: .devcontainer/Dockerfile
-
+    image: mcr.microsoft.com/devcontainers/python:3.11
     volumes:
       - ../..:/workspaces:cached
 

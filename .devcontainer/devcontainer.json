@@ -1,9 +1,9 @@
 // README at: https://github.com/devcontainers/templates/tree/main/src/postgres
 {
 	"name": "Python",
-	"image": "mcr.microsoft.com/devcontainers/python:3.11",
-	//"dockerComposeFile": "docker-compose.yml",
-	//"service": "app",
+	// "image": "mcr.microsoft.com/devcontainers/python:3.11",
+	"dockerComposeFile": "docker-compose.yml",
+	"service": "app",
 	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	"features": {
